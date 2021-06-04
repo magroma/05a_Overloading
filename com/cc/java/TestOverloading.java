@@ -26,7 +26,7 @@ public class TestOverloading {
 		//System.out.println("Hello");
 		return "hi";
 	}
-	 */
+	*/
 	
 	/*
 	// Gleiche Signatur 3 | Access Modifier ?
@@ -63,22 +63,22 @@ public class TestOverloading {
 	*/
 	 
 	
-	/*	
+	// /*	
 	// BasisMethode
 	public void sayHello2(String name, int counter) {
 		System.out.println("1: Parameter name: " + name + " | Parameter: counter: " + counter);
 	}
 	
-	// Überladene Methode 1 (Reihenfolge Parameter)
+	// Ãœberladene Methode 1 (Reihenfolge Parameter)
 	public void sayHello2(int counter, String name) {
 		System.out.println("2: Parameter name: " + name + " | Parameter: counter: " + counter);
 	}
 	
-	// Überladene Methode 3 (Anzahl Parameter)
+	// Ãœberladene Methode 3 (Anzahl Parameter)
 	public void sayHello2() {
 		System.out.println("3: Ohne parameter");
 	}
-	*/
+	// */
 	
 	
 	// BasisMethode
@@ -87,7 +87,7 @@ public class TestOverloading {
 	}
 	
 	
-	// Überladene Methode 3 (Parameter Typ)
+	// ï¿½berladene Methode 3 (Parameter Typ)
 	public void sayHello3(String name, String ID) {
 		System.out.println("Parameter name: " + name + " | Parameter: ID: " + ID);
 	}
